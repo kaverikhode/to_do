@@ -40,6 +40,39 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.309" />
+        app:layout_constraintVertical_bias="0.322" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="265dp"
+        android:layout_height="43dp"
+        android:fontFamily="@font/poppins"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Forgot password?"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="579dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
